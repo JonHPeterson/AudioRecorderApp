@@ -69,18 +69,13 @@
 		739C1AB028B884AA00BFD78C /* AudioRecorderApp */ = {
 			isa = PBXGroup;
 			children = (
+				739C1AB128B884AA00BFD78C /* AudioRecorderAppApp.swift */,
+				739C1AD128B97DBD00BFD78C /* Audio */,
+				739C1AD028B97C9D00BFD78C /* Views */,
 				739C1AC228B887D700BFD78C /* AudioRecorderApp.entitlements */,
 				739C1AC128B8877D00BFD78C /* Info.plist */,
-				739C1AB128B884AA00BFD78C /* AudioRecorderAppApp.swift */,
-				739C1AB328B884AA00BFD78C /* ContentView.swift */,
 				739C1AB528B884AB00BFD78C /* Assets.xcassets */,
 				739C1AB728B884AB00BFD78C /* Preview Content */,
-				739C1ABF28B884D000BFD78C /* AudioRecorder.swift */,
-				739C1AC628B889CB00BFD78C /* RecordingsList.swift */,
-				739C1AC828B91B3600BFD78C /* Extensions.swift */,
-				739C1ACA28B923C600BFD78C /* RecordingDataModel.swift */,
-				739C1ACC28B9249B00BFD78C /* Helper.swift */,
-				739C1ACE28B926C700BFD78C /* AudioPlayer.swift */,
 			);
 			path = AudioRecorderApp;
 			sourceTree = "<group>";
@@ -99,6 +94,27 @@
 				739C1AC428B887D700BFD78C /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		739C1AD028B97C9D00BFD78C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				739C1AB328B884AA00BFD78C /* ContentView.swift */,
+				739C1AC628B889CB00BFD78C /* RecordingsList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		739C1AD128B97DBD00BFD78C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				739C1ABF28B884D000BFD78C /* AudioRecorder.swift */,
+				739C1ACE28B926C700BFD78C /* AudioPlayer.swift */,
+				739C1AC828B91B3600BFD78C /* Extensions.swift */,
+				739C1ACA28B923C600BFD78C /* RecordingDataModel.swift */,
+				739C1ACC28B9249B00BFD78C /* Helper.swift */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
