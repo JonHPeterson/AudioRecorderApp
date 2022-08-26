@@ -14,6 +14,9 @@ struct ContentView: View {
             VStack {
                 RecordingsList(audioRecorder: audioRecorder)
                     .onAppear(){audioRecorder.fetchRecordings()}
+                Text("Power")
+                Text("Average: \(Int(audioRecorder.averagePower+0.5))")
+                Text("Peak: \(Int(audioRecorder.peakPower+0.5))")
                 if audioRecorder.recording == false {
                     Button(action: {self.audioRecorder.startRecording()}) {
                         Image(systemName: "circle.fill")
